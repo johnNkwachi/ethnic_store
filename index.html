@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ethnic Health Book Store</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Paystack InlineJS v2 -->
+    <script src="https://js.paystack.co/v2/inline.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-content">
+        <h1 class="logo">Ethnic Health Book Store</h1>
+        <div class="cart-summary" id="cart-summary">
+          <span id="cart-count">0 items</span>
+          <span id="cart-total">₦0.00</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="container main">
+      <section class="books-section">
+        <h2>Available Books</h2>
+        <div id="books-grid" class="books-grid"></div>
+      </section>
+
+      <aside class="cart-section">
+        <h2>Your Cart</h2>
+        <div id="cart-items" class="cart-items empty-state">
+          <p>Your cart is empty. Add some books!</p>
+        </div>
+        <div class="cart-footer">
+          <div class="cart-totals">
+            <span>Subtotal:</span>
+            <strong id="cart-subtotal">₦0.00</strong>
+          </div>
+          <button id="checkout-button" class="btn primary" disabled>
+            Pay with Paystack
+          </button>
+          <p class="note">
+            Use your <strong>Paystack test public key</strong> in
+            <code>app.js</code> before going live.
+          </p>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>
+          <strong>These books are available for fast fingers – call 08037208445 to order.</strong>
+        </p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+
