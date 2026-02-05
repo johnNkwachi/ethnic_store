@@ -57,13 +57,9 @@ body {
   padding: 1rem 0.25rem;
 }
 
-<<<<<<< HEAD
 .logo-link {
   text-decoration: none;
 }
-
-=======
->>>>>>> ace08da07835d411aec543ca600b590fcc69e024
 .logo {
   margin: 0;
   font-size: 1.4rem;
@@ -83,7 +79,6 @@ body {
   box-shadow: 0 0 20px rgba(34, 197, 94, 0.9);
 }
 
-<<<<<<< HEAD
 .nav {
   display: flex;
   align-items: center;
@@ -390,9 +385,6 @@ body {
   font-size: 0.75rem;
   color: var(--muted);
 }
-
-=======
->>>>>>> ace08da07835d411aec543ca600b590fcc69e024
 .cart-summary {
   display: inline-flex;
   align-items: center;
@@ -756,10 +748,10 @@ body {
 
 .footer {
   border-top: 1px solid rgba(30, 64, 175, 0.5);
-<<<<<<< HEAD
   padding: 1.3rem 0 1.4rem;
   font-size: 0.8rem;
   color: var(--muted);
+  text-align: center;
 }
 
 .footer-grid {
@@ -808,12 +800,6 @@ body {
 .footer-bottom {
   border-top: 1px solid rgba(30, 64, 175, 0.4);
   padding-top: 0.6rem;
-=======
-  padding: 1rem 0 1.4rem;
-  font-size: 0.8rem;
-  color: var(--muted);
->>>>>>> ace08da07835d411aec543ca600b590fcc69e024
-  text-align: center;
 }
 
 ::-webkit-scrollbar {
